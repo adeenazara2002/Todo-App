@@ -26,6 +26,9 @@ class SplashScreen extends StatelessWidget {
                         fontWeight: FontWeight.w500,
                         fontSize: 28)),
                 Image.asset('./assets/images/main_image.png'),
+
+                // parent container
+
                 Container(
                   child: Row(
                     children: [
@@ -47,7 +50,7 @@ class SplashScreen extends StatelessWidget {
 
                       // container 2
                       SizedBox(
-                        width: 10,
+                        width: 20,
                       ),
                       Container(
                         // padding: EdgeInsets.only(left: 60),
@@ -60,9 +63,66 @@ class SplashScreen extends StatelessWidget {
                             color: Color.fromRGBO(252, 216, 115, 1),
                           ),
                         ),
-                      )
+                      ),
+
+                      // container 2
+                      SizedBox(
+                        width: 20,
+                      ),
+                      Container(
+                        // padding: EdgeInsets.only(left: 60),
+                        height: 20,
+                        width: 60,
+                        decoration: BoxDecoration(
+                          color: Color.fromRGBO(252, 216, 115, 1),
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(
+                            color: Color.fromRGBO(252, 216, 115, 1),
+                          ),
+                        ),
+                      ),
                     ],
                   ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Text(
+                  'Without much worry just manage',
+                  style: TextStyle(
+                      color: Color.fromRGBO(0, 0, 0, 1), fontSize: 20),
+                ),
+
+                Text(
+                  'things as easy as piece of cake',
+                  style: TextStyle(
+                      color: Color.fromRGBO(0, 0, 0, 1), fontSize: 20),
+                ),
+
+                SizedBox(
+                  height: 20,
+                ),
+
+                ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Color.fromRGBO(255, 192, 14, 1),
+                    foregroundColor: Color.fromRGBO(0, 0, 0, 1), // text color
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 30.0, vertical: 5.0),
+                    child: Text(
+                      'Create a Note',
+                      style: TextStyle(fontSize: 18.0),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
                 )
               ],
             ),
