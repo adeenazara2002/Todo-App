@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo_app/screens/home_screen.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -52,7 +53,17 @@ class SplashScreen extends StatelessWidget {
                       SizedBox(
                         width: 20,
                       ),
+
+                      // InkWell(
+                      //   onTap: () {
+                      //     Navigator.push(
+                      //         context,
+                      //         MaterialPageRoute(
+                      //             builder: (context) => HomeScreen()));
+                      //   },
+                      // ),
                       Container(
+                        
                         // padding: EdgeInsets.only(left: 60),
                         height: 20,
                         width: 60,
@@ -104,7 +115,16 @@ class SplashScreen extends StatelessWidget {
                 ),
 
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    InkWell(
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => HomeScreen()));
+                        },
+                      );
+                  },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Color.fromRGBO(255, 192, 14, 1),
                     foregroundColor: Color.fromRGBO(0, 0, 0, 1), // text color
@@ -112,6 +132,7 @@ class SplashScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(15.0),
                     ),
                   ),
+                  
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
                         horizontal: 30.0, vertical: 5.0),
@@ -120,6 +141,7 @@ class SplashScreen extends StatelessWidget {
                       style: TextStyle(fontSize: 18.0),
                     ),
                   ),
+                  
                 ),
                 SizedBox(
                   height: 20,
