@@ -5,6 +5,11 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Color.fromRGBO(138, 157, 255, 0.72),
+        title: Text('Manage your'),
+      )
+    );
   }
 }
