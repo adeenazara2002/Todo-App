@@ -220,9 +220,6 @@ class _AddScreenState extends State<AddScreen> {
 
                 // eighth row(column) start
 
-                
-
-
                 // small containers started
 
                 SizedBox(
@@ -242,7 +239,7 @@ class _AddScreenState extends State<AddScreen> {
                           padding: EdgeInsets.only(left: 30),
                           child: Text(
                             'High',
-                            style: TextStyle(fontSize: 20 , color: Colors.black),
+                            style: TextStyle(fontSize: 20, color: Colors.black),
                           ),
                           decoration: BoxDecoration(
                             color: Color.fromRGBO(221, 21, 21, 1),
@@ -264,7 +261,7 @@ class _AddScreenState extends State<AddScreen> {
                           padding: EdgeInsets.only(left: 10),
                           child: Text(
                             'Medium',
-                            style: TextStyle(fontSize: 20 , color: Colors.black),
+                            style: TextStyle(fontSize: 20, color: Colors.black),
                           ),
                           decoration: BoxDecoration(
                             color: Color.fromRGBO(166, 166, 166, 1),
@@ -301,7 +298,6 @@ class _AddScreenState extends State<AddScreen> {
                   ],
                 ),
 
-
                 SizedBox(
                   height: 180,
                 ),
@@ -319,7 +315,6 @@ class _AddScreenState extends State<AddScreen> {
                       borderRadius: BorderRadius.circular(15.0),
                     ),
                   ),
-                  
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
                         horizontal: 150.0, vertical: 15.0),
@@ -328,7 +323,6 @@ class _AddScreenState extends State<AddScreen> {
                       style: TextStyle(fontSize: 20.0),
                     ),
                   ),
-                  
                 ),
               ],
             ),

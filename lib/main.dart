@@ -16,7 +16,7 @@ class TodoApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AddScreen(),
+      home: HomeScreen(),
     );
   }
 }
