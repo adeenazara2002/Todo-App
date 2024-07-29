@@ -300,6 +300,36 @@ class _AddScreenState extends State<AddScreen> {
                     )
                   ],
                 ),
+
+
+                SizedBox(
+                  height: 180,
+                ),
+                ElevatedButton(
+                  onPressed: () {
+                    // Navigator.push(
+                    //     context,
+                    //     MaterialPageRoute(
+                    //         builder: (context) => HomeScreen([AddScreen()])));
+                  },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Color.fromRGBO(121, 175, 146, 1),
+                    foregroundColor: Color.fromRGBO(0, 0, 0, 1), // text color
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
+                  ),
+                  
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 150.0, vertical: 15.0),
+                    child: Text(
+                      'Add',
+                      style: TextStyle(fontSize: 20.0),
+                    ),
+                  ),
+                  
+                ),
               ],
             ),
           ),
