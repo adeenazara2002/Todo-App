@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+// import 'package:todo_app/home.dart';
 import 'package:todo_app/screens/add_screen.dart';
 import 'package:todo_app/screens/home_screen.dart';
 import 'package:todo_app/screens/splash_screen.dart';
+// import 'package:todo_app/screens/home.dart';
+
 
 void main(){
   runApp(TodoApp());

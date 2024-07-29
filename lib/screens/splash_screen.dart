@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo_app/screens/add_screen.dart';
 import 'package:todo_app/screens/home_screen.dart';
 
 class SplashScreen extends StatelessWidget {
@@ -10,7 +11,7 @@ class SplashScreen extends StatelessWidget {
       body: Container(
         height: 700,
         width: double.infinity,
-        color: Color.fromRGBO(84, 90, 167, 0.886),
+        color: Color.fromRGBO(49, 72, 156, 0.718),
         child: Scrollbar(
           child: SingleChildScrollView(
             child: Column(
@@ -116,14 +117,10 @@ class SplashScreen extends StatelessWidget {
 
                 ElevatedButton(
                   onPressed: () {
-                    InkWell(
-                        onTap: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => HomeScreen()));
-                        },
-                      );
+                    // Navigator.push(
+                    //     context,
+                    //     MaterialPageRoute(
+                    //         builder: (context) => HomeScreen([AddScreen()])));
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Color.fromRGBO(255, 192, 14, 1),
