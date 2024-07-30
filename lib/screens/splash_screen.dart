@@ -9,7 +9,7 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        height: 700,
+        height: double.infinity,
         width: double.infinity,
         color: Color.fromRGBO(49, 72, 156, 0.718),
         child: Scrollbar(
