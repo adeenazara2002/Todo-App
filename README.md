@@ -13,24 +13,18 @@ A few resources to get you started if this is your first Flutter project:
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials
-<div class='parernt' style='display:flex'>
-  <div class='class1'>
-    <h3>Splash Screen</h3>
-    
-  </div>
 
-   <div class='class2'>
-    <h3>Home Screen</h3>
-    
-  </div>
-
-   <div class='class3'>
-    <h3>Add Screen</h3>
-    
-  </div>
-</div>
 samples, guidance on mobile development, and a full API reference.
-<h3>Home Screen</h3><h3>Add Screen</h3>
+# My Project
+
+## Screenshot 1
+![Splash Screen]("C:\Users\sunny\Pictures\Screenshots\splash.png")
+
+## Screenshot 2
+![Description of Screenshot 2](path/to/screenshot2.png)
+
+## Screenshot 3
+![Description of Screenshot 3](path/to/screenshot3.png)
 
 
 
