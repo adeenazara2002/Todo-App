@@ -18,14 +18,13 @@ samples, guidance on mobile development, and a full API reference.
 
 
 ## Splash Screen
-
 ![splash](https://github.com/user-attachments/assets/01daa8ee-3734-4f4c-af72-e262f2c67cfe)
 
-## Screenshot 2
-![Description of Screenshot 2](path/to/screenshot2.png)
+## Home Screen
+![home](https://github.com/user-attachments/assets/2ba275ac-a891-431e-84c7-c1638b23dd46)
 
-## Screenshot 3
-![Description of Screenshot 3](path/to/screenshot3.png)
 
+## Add Screen 
+![add](https://github.com/user-attachments/assets/f3020588-9ecf-47ec-9348-cd8ca22d7e07)
 
 
