@@ -15,10 +15,11 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials
 
 samples, guidance on mobile development, and a full API reference.
-# My Project
 
-## Screenshot 1
-![Splash Screen]("C:\Users\sunny\Pictures\Screenshots\splash.png")
+
+## Splash Screen
+
+![splash](https://github.com/user-attachments/assets/01daa8ee-3734-4f4c-af72-e262f2c67cfe)
 
 ## Screenshot 2
 ![Description of Screenshot 2](path/to/screenshot2.png)
